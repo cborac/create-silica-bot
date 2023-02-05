@@ -1,0 +1,32 @@
+{
+  "name": "create-silica-bot",
+  "version": "1.0.3",
+  "main": "dist/index.js",
+  "license": "GPL-3.0",
+  "keywords": [
+    "discord-bot"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/prompt": "^1.1.5",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "enquirer": "^2.3.6",
+    "tslib": "^2.5.0"
+  },
+  "bin": {
+    "create-silica-bot": "./dist/index.js"
+  },
+  "files": [
+    "dist/index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cborac/create-silica-bot.git"
+  }
+}
